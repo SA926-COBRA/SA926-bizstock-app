@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.tauri.app/config/2.0.0-rc",
+  "productName": "BizStock",
+  "version": "1.0.1",
+  "identifier": "com.bizstock.dev",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:3000",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "fullscreen": false,
+        "minHeight": 600,
+        "minWidth": 1024,
+        "resizable": true,
+        "title": "BizStock",
+        "transparent": false,
+        "label": "main",
+        "decorations": true,
+        "url": "http://13.202.220.49/"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/biz-32x32.png",
+      "icons/biz-128x128.png",
+      "icons/biz-128x128@2x.png",
+      "icons/biz-icon.icns",
+      "icons/favicon.ico"
+    ]
+  }
+}

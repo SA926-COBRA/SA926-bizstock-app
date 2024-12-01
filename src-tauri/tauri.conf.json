@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2.0.0-rc",
   "productName": "BizStock",
-  "version": "1.0.1",
-  "identifier": "com.bizstock.dev",
+  "version": "1.5.7",
+  "identifier": "app.bizstock.net",
   "build": {
     "frontendDist": "../dist",
     "devUrl": "http://localhost:3000",
@@ -20,7 +20,7 @@
         "transparent": false,
         "label": "main",
         "decorations": true,
-        "url": "http://13.202.220.49/"
+        "url": "https://app.bizstock.net/"
       }
     ],
     "security": {
